@@ -18,6 +18,7 @@
 #include "XeEngine/ColorMaterial.h"
 #include "XeEngine/PhongMaterial.h"
 #include "XeEngine/Mesh.h"
+using namespace glm;
 
 
 namespace {
