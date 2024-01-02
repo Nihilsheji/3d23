@@ -8,7 +8,6 @@
 #include <vector>
 #include <array>
 
-#include "spdlog/spdlog.h"
 #include "glm/glm.hpp"
 
 #include "Geometry/bounding_box.h"

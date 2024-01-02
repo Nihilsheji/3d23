@@ -1,0 +1,11 @@
+mtllib square.mtl
+
+v 1.0 1.0 0.0
+v -1.0 1.0 0.0
+v -1.0 -1.0 0.0
+v 1.0 -1.0 0.0
+
+g default
+usemtl Red
+f 1 4 2
+f 1 4 3

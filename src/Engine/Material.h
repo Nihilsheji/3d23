@@ -17,26 +17,4 @@ namespace xe {
 
         virtual void unbind() {};
     };
-
-    class ColorMaterial : public Material {
-    public:
-        ColorMaterial(const glm::vec4 color) : color_(color) {}
-
-        void bind();
-
-        static void init();
-
-        static GLuint program() { return shader_; }
-
-    private:
-        static GLuint shader_;
-        static GLuint color_uniform_buffer_;
-
-        glm::vec4 color_;
-
-    };
-
-
 }
-
-
